@@ -5,6 +5,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("CURD Operations"),
+        backgroundColor: const Color.fromARGB(255, 153, 0, 255),
+      ),
+    );
   }
 }
