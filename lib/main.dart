@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firestore_curd/firebase_options.dart';
-import 'package:firestore_curd/home_page.dart';
+import 'package:firestore_curd/models/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
